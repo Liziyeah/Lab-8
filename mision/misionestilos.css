@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://i.pinimg.com/564x/a5/41/8b/a5418be21f59b73624783338253c03bb.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(61, 12, 82);
+  width: auto;
+  height: 4rem;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header__menu :hover {
+  transform: scale(110%);
+  color: rgb(192, 155, 193);
+}
+
+.header__login :hover {
+  transform: scale(110%);
+  color: rgb(192, 155, 193);
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vw;
+}
+
+.header__login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vh;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.title {
+  margin: 1rem;
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
