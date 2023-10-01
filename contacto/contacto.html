@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./contactoestilos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu">
+        <a href="#">Inicio</a>
+        <a href="#">Contáctenos</a>
+        <a href="./nosotros.html" target="_blank">Quiénes somos</a>
+      </div>
+      <div class="header__login">
+        <a href="login.html">Misión</a>
+        <a href="#">Visión</a>
+      </div>
+    </header>
+    <section class="contact">
+      <div class="content">
+        <h1 class="content__logo">Contáctanos</h1>
+        <div class="contact__wrapper">
+          <div class="contact__form">
+            <form action="" class="contact__form-form">
+              <p class="contact__form-form-field">
+                <label for="nombrecompleto" class="contact__form-form-label"
+                  >Nombre Completo</label
+                >
+                <input
+                  type="text"
+                  name="nombrecompleto"
+                  id="nombrecompleto"
+                  class="contact__form-form-input"
+                  required
+                />
+              </p>
+              <br />
+              <p class="contact__form-form-field">
+                <label for="correo" class="contact__form-form-label"
+                  >Correo</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  class="contact__form-form-input"
+                  required
+                />
+              </p>
+              <br />
+              <p class="contact__form-form-field">
+                <label for="phone" class="contact__form-form-label"
+                  >Teléfono</label
+                >
+                <input
+                  type="tel"
+                  name="phone"
+                  class="contact__form-form-input"
+                  required
+                />
+              </p>
+              <br />
+              <p class="contact__form-form-field">
+                <label for="asunto" class="contact__form-form-label"
+                  >Asunto</label
+                >
+                <input
+                  type="text"
+                  name="asunto"
+                  class="contact__form-form-input"
+                  required
+                />
+              </p>
+              <br />
+              <p class="contact__form-form-field">
+                <label for="msj" class="contact__form-form-label"
+                  >Mensaje</label
+                >
+                <textarea
+                  name="msj"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="contact__form-form-textarea"
+                ></textarea>
+              </p>
+              <br />
+              <p class="contact__form-form-button">
+                <button class="contact__form-form-button-primary">
+                  Enviar
+                </button>
+              </p>
+              <br />
+            </form>
+          </div>
+          <div class="contact__info">
+            <h4 class="contact__info-heading">Más Información</h4>
+            <ul class="contact__info-list">
+              <li class="contact__info-list-item">
+                Cr 75A No. 49A-77, C.P 1100
+              </li>
+              <li class="contact__info-list-item">Cali, Colombia</li>
+              <li class="contact__info-list-item">(57-4) 316534089</li>
+              <p class="contact__info-email">michimamu@gmail.com/p></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
