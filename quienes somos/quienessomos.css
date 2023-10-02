@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width: auto;
+  height: 4rem;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header__menu :hover {
+  transform: scale(110%);
+  color: rgb(146, 142, 142);
+}
+
+.header__login :hover {
+  transform: scale(110%);
+  color: rgb(146, 142, 142);
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vw;
+}
+
+.header__login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vh;
+}
+.title > div > h1 {
+  margin: 1px 0;
+  padding: 30px;
+  font-size: 5rem;
+}
+
+.creadores {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.contenidoCreador {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.imagenCreador {
+  width: 50%;
+}
+
+.imagenCreador > figure,
+.imagenCreador > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenCreador > h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.descripcionCreador {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 47%;
+}
+
+.descripcionCreador > h1 {
+  font-size: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 1rem;
+}
